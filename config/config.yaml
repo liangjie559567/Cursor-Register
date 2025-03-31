@@ -4,20 +4,28 @@ register:
   delete_low_balance_account: true           # [IMAP only] Re-register account if the balance is not enough
   delete_low_balance_account_threshold: 50   # [IMAP only] Re-register account balance threshold
   email_server: 
-    name: temp_email_server                  # Should be temp_email_server or imap_email_server
-    use_custom_address: false                # [IMAP only] Should be true when use imap_email_server
+    name: imap_email_server                  # Should be temp_email_server or imap_email_server
+    use_custom_address: true                # [IMAP only] Should be true when use imap_email_server
     custom_email_address:                    # [IMAP only] email address list
-    - email1@outlook.com
-    - email2@outlook.com
-
+    - WesleyGill19861018@outlook.com
+    - MatthewWilson20011118@outlook.com
+    - BrianWhiteBW1965@outlook.com
+    - KevinRobinson1999025@outlook.com
+    - WilliamLee1985411@outlook.com
+    - KathyHodge19961226@outlook.com
+    - ChristopherWigginsCW1952@outlook.com
+    - MKatherineGonzalez1974627@outlook.com
+    - HollyLoweHL2001@outlook.com
+    - CindyCardenas197846@outlook.com
+    - IanSummers1970227@outlook.com
   temp_email_server:                         # Temp email server you use
     name: Minuteinboxcom
 
   imap_email_server:                         # IMAP setting
-    imap_server: imap.qq.com
+    imap_server: outlook.office365.com
     imap_port: 993
-    username: username
-    password: password
+    username: ShaneMoses1966921@outlook.com
+    password: Shane150830
 
 oneapi:
   enabled: false                             # Ingest data into OneAPI server
